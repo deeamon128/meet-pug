@@ -1,0 +1,14 @@
+mixin study-more(itemList)
+  ul 
+    each item in itemList
+      li=item
+mixin studying 
+  div I study all day long 
+  div Do you study as well?
+
++study-more(['one h', 'two h', 'three h'])
+|
+|
++studying
+hr 
++studying
